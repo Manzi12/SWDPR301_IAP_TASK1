@@ -405,7 +405,7 @@ o	Salary, allowances, bonuses, insurance, pension
 •	Performance & Development
 o	Appraisals, training records, certifications, career progression
 •	Attendance & Leave
-o	Work hours, leave requests, approvals, absenteeism
+o	Work hours, leave requests, appvals, absenteeism
 •	Compliance & Legal
 o	Contracts, policies acknowledged, disciplinary records
 Step 2: Data Cleansing
@@ -446,12 +446,101 @@ o	Transparent leave and attendance tracking
 o	Access to training and career development records
 •	IT/Administration
 o	Secure, scalable system
-o	Integration with existing enterprise tools
+o	Integration with existing enterprse tools
 o	Role-based access control
 
 
 
+TASKS 2.1:IDENTIFICATION OF PROJECT REQUIREMENTS
 
+📌 Project Scope
+Objective: Develop a mobile app that delivers real-time updates on sustainability initiatives and provides personalized carbon footprint reduction tips.
+
+Target Audience: Environmentally-conscious customers and stakeholders of Green Tech Solutions.
+
+Boundaries: Focus on customer engagement and awareness — not internal operations or unrelated services.
+
+Deliverables:
+
+Mobile application (iOS & Android)
+
+Admin dashboard for content management
+
+Analytics and reporting tools for engagement tracking
+
+📝 Project Requirements
+1. Functional Requirements
+Real-Time Updates
+
+Push notifications for new sustainability initiatives, events, and campaigns.
+
+Personalized Tips
+
+Tailored recommendations based on user profile (location, lifestyle, preferences).
+
+Carbon Footprint Tracker
+
+Simple calculator to estimate and monitor individual impact.
+
+Gamification
+
+Badges, challenges, and rewards for eco-friendly actions.
+
+Community Engagement
+
+Forums or discussion boards for sharing ideas and success stories.
+
+Integration
+
+Link with social media for sharing achievements.
+
+Sync with external sustainability data sources (e.g., local recycling programs).
+
+2. Non-Functional Requirements
+Usability
+
+Intuitive interface, accessible design, multilingual support.
+
+Performance
+
+Fast loading times, reliable push notifications.
+
+Scalability
+
+Ability to handle growing user base and expanding features.
+
+Security
+
+Data privacy compliance (GDPR, local laws).
+
+Compatibility
+
+Cross-platform (iOS, Android), responsive design for different devices.
+
+3. Stakeholder Needs
+Customers
+
+Easy access to sustainability updates.
+
+Personalized, actionable eco-tips.
+
+Recognition for their contributions.
+
+Management
+
+Increased customer engagement metrics.
+
+Insights into user behavior and preferences.
+
+Marketing Team
+
+Ability to push targeted campaigns.
+
+Analytics on customer participation.
+
+IT Team
+
+Secure, maintainable, and scalable system.
 
 
 
@@ -513,6 +602,7 @@ The general public may want to know more about the school:
 •	School background, mission, and vision 
 •	Community programs and involvement 
 •	Contact information 
+
 
 
 
