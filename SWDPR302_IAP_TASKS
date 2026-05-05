@@ -1,0 +1,539 @@
+NGOGA GEOFREY.
+MANZI IVAN.
+
+
+MY TASKS OF PROJECT REQUIREMENT ANALYSIS
+
+
+Task1.1:DATA GATHERING. 
+. Interviews (Management & Key Staff)
+Findings:
+•	Management feels the current CRM lacks integration with the POS system, leading to duplicate entries.
+•	Sales managers report difficulty tracking leads and follow-ups, resulting in lost opportunities.
+•	Marketing team struggles to segment customers for targeted campaigns.
+•	Customer service notes delays in retrieving purchase history during support calls.
+2. Employee Questionnaire (Sales, Marketing, Support Staff)
+Responses (summarized):
+•	Ease of Use: 65% say the system is “complicated” and requires too many manual steps.
+•	Functionality: Sales staff want automated reminders for follow-ups; marketing wants campaign analytics; support wants faster search.
+•	Integration: 70% report they use spreadsheets outside the CRM to fill gaps.
+•	Suggestions: Better dashboards, mobile access, and integration with e-commerce.
+3. Customer Feedback Form
+Insights:
+•	Customers feel promotions are “generic” and not tailored to their shopping history.
+•	40% report repeating information when contacting support (system doesn’t recognize them).
+•	Many want loyalty rewards tracked digitally instead of paper receipts.
+•	Overall satisfaction score: 6.5/10.
+4. Observation Checklist
+Observed Issues:
+•	Staff take 2–3 minutes to retrieve customer records.
+•	Manual entry of sales data is common.
+•	Duplicate customer profiles exist.
+•	Workarounds: staff export data to Excel for reporting.
+5. Documentation Checklist
+Collected Artifacts:
+•	Current CRM user manual (outdated, last updated 3 years ago).
+•	Monthly sales reports (inconsistent formatting).
+•	Customer service logs (not linked to CRM).
+•	Integration notes with POS (partial, not fully implemented).
+ Analysis
+•	Key Inefficiencies: Lack of integration, slow data retrieval, poor analytics, duplicate records.
+•	Impact: Lost sales opportunities, generic customer engagement, reduced satisfaction.
+•	Opportunities: Automation, better segmentation, loyalty program integration, mobile-friendly CRM.
+ Next Steps for Client Meeting
+When presenting to the client:
+1.	Show pain points with evidence (quotes, stats, observations).
+2.	Propose solutions:
+o	Unified CRM integrated with POS & e-commerce.
+o	Automated lead tracking and reminders.
+o	Customer segmentation for personalized marketing.
+o	Loyalty program digitization.
+3.	Prioritize requirements into must-have vs nice-to-have.
+4.	Confirm alignment with client expectations before moving to design.
+
+
+
+
+
+
+TASK1.2:INTERPRITATION OF DATA.
+________________________________________
+1. Interpreting Typical User Data (What to Look For)
+a) User Preferences
+From surveys, clicks, and enrollments:
+•	High demand for short, structured courses → users prefer modular learning (microlearning) 
+•	Popular categories (e.g., coding, business, exam prep) → prioritize these first 
+•	Device usage (mobile vs desktop) 
+o	If most users are mobile → mobile-first design is critical 
+Interpretation:
+Users want flexible, accessible, and practical learning content
+________________________________________
+b) Engagement Patterns
+From analytics (time spent, drop-off rates, session duration):
+•	High drop-off in long videos → content is too lengthy or not engaging 
+•	High engagement in quizzes/tutorials → interactive content works better 
+•	Frequent logins but low completion → motivation or tracking issues 
+Interpretation:
+Users engage more with:
+•	Interactive content 
+•	Short lessons 
+•	Clear progress tracking 
+________________________________________
+c) User Feedback (Reviews / Comments)
+From surveys, forums, ratings:
+Common complaints:
+•	“Courses are too long” 
+•	“No clear progress tracking” 
+•	“Hard to navigate” 
+•	“Lack of community support” 
+Positive feedback:
+•	“Interactive exercises are helpful” 
+•	“Personal dashboards are useful” 
+Interpretation:
+Users value:
+•	Simplicity 
+•	Feedback systems 
+•	Community interaction 
+________________________________________
+2. Data Visualization Insights (What Trends Reveal)
+Using charts like:
+•	Bar charts → popular courses 
+•	Line graphs → engagement over time 
+•	Heatmaps → user clicks/navigation 
+You typically uncover:
+•	Peak usage times → schedule content releases or notifications 
+•	Most clicked features → highlight them on homepage 
+•	Navigation bottlenecks → redesign UI/UX 
+________________________________________
+3. Key Features Identified (Based on Data)
+From the interpretation above, the system should include:
+Core Features (High Priority)
+•	Course catalog with filters (category, difficulty, duration) 
+•	Interactive tutorials (quizzes, coding exercises) 
+•	Personalized dashboard: 
+o	Progress tracking 
+o	Recommendations 
+•	Mobile-friendly UI 
+Engagement Features
+•	Gamification (badges, streaks) 
+•	Notifications/reminders 
+•	Short lesson formats 
+Community Features
+•	Discussion forums 
+•	Peer interaction 
+•	Instructor Q&A 
+________________________________________
+4. Functional Requirements
+•	Users can: 
+o	Register/login 
+o	Enroll in courses 
+o	Track progress 
+o	Participate in forums 
+•	Admin can: 
+o	Upload/manage courses 
+o	Monitor user activity 
+•	System: 
+o	Recommends courses based on behavior 
+o	Tracks completion rates 
+________________________________________
+5. Non-Functional Requirements
+•	Fast loading speed (important for mobile users) 
+•	Scalable system (many users) 
+•	Secure authentication 
+•	User-friendly interface 
+________________________________________
+6. Final Insight (What the Data Tells You)
+If we summarize all interpreted trends:
+The platform must prioritize personalization, interactivity, and simplicity over just content quantity.
+TASK1.3:ORGANISATING CUSTOMER NEEDS.
+
+Step 1: Data Categorization
+Group the collected employee-related data into logical categories:
+•	Personal Information
+o	Name, date of birth, contact details, address
+•	Employment Details
+o	Job title, department, hire date, employment status
+•	Compensation & Benefits
+o	Salary, allowances, bonuses, insurance, pension
+•	Performance & Development
+o	Appraisals, training records, certifications, career progression
+•	Attendance & Leave
+o	Work hours, leave requests, approvals, absenteeism
+•	Compliance & Legal
+o	Contracts, policies acknowledged, disciplinary records
+Step 2: Data Cleansing
+Ensure accuracy, consistency, and completeness:
+•	Remove duplicates (e.g., multiple records for the same employee).
+•	Standardize formats (dates, phone numbers, addresses).
+•	Validate entries (mandatory fields like employee ID, department).
+•	Correct errors (typos, outdated job titles).
+•	Handle missing data (flag gaps, request updates from HR).
+•	Ensure compliance (GDPR, local labor laws, data privacy).
+ Step 3: Data Reporting
+Design reporting outputs that support decision-making:
+•	Operational Reports
+o	Employee headcount by department
+o	Attendance and leave trends
+o	Payroll summaries
+•	Analytical Reports
+o	Performance ratings distribution
+o	Training effectiveness and participation
+o	Attrition and retention analysis
+•	Strategic Dashboards
+o	Workforce demographics
+o	Succession planning insights
+o	Diversity and inclusion metrics
+ Customer (Stakeholder) Needs
+Organize needs by stakeholder group:
+•	HR Department
+o	Centralized employee records
+o	Automated payroll and leave management
+o	Easy compliance reporting
+•	Management
+o	Real-time dashboards for workforce planning
+o	Performance and productivity insights
+o	Forecasting tools for staffing needs
+•	Employees
+o	Self-service portal for updating personal info
+o	Transparent leave and attendance tracking
+o	Access to training and career development records
+•	IT/Administration
+o	Secure, scalable system
+o	Integration with existing enterprise tools
+o	Role-based access control
+
+TASKS2.1:IDENTIFICATION OF PROJECT REQUIREMENTS.
+
+Step 2: Data Cleansing
+Ensure accuracy, consistency, and completeness:
+•       Remove duplicates (e.g., multiple records for the same employee).
+•       Standardize formats (dates, phone numbers, addresses).
+•       Validate entries (mandatory fields like employee ID, department).
+•       Correct errors (typos, outdated job titles).
+•       Handle missing data (flag gaps, request updates from HR).
+•       Ensure compliance (GDPR, local labor laws, data privacy).
+ Step 3: Data Reporting
+Design reporting outputs that support decision-making:
+•       Operational Reports
+o       Employee headcount by department
+o       Attendance and leave trends
+o       Payroll summaries
+•       Analytical Reports
+o       Performance ratings distribution
+o       Training effectiveness and participation
+o       Attrition and retention analysis
+•       Strategic Dashboards
+o       Workforce demographics
+o       Succession planning insights
+o       Diversity and inclusion metrics
+ Customer (Stakeholder) Needs
+Organize needs by stakeholder group:
+•       HR Department
+o       Centralized employee records
+o       Automated payroll and leave management
+o       Easy compliance reporting
+•       Management
+o       Real-time dashboards for workforce planning
+o       Performance and productivity insights
+o       Forecasting tools for staffing needs
+•       Employees
+o       Self-service portal for updating personal info
+o       Transparent leave and attendance tracking
+o       Access to training and career development records
+•       IT/Administration
+o       Secure, scalable system
+o       Integration with existing enterprse tools
+o       Role-based access control
+
+TASKS2.2:RESEARCH METHODOLOGY.
+1. Stakeholder Interviews
+•	Purpose: Gather in-depth qualitative insights.
+•	Who: School administrators, teachers, IT staff, parent representatives.
+•	Focus Areas:
+o	Current communication challenges
+o	Desired features (fee payment, performance tracking, event updates)
+o	Concerns about usability and security
+2. Surveys & Questionnaires
+•	Purpose: Collect broad, quantifiable data.
+•	Who: Students, parents, teachers.
+•	Focus Areas:
+o	Preferred communication channels
+o	Frequency of updates needed
+o	Ease of online payments
+o	Satisfaction with current systems
+3. Observation
+•	Purpose: Understand how existing processes work in practice.
+•	Method: Shadow staff during fee collection, event communication, and performance reporting.
+•	Outcome: Identify inefficiencies and bottlenecks that the platform should solve.
+4. Document Analysis
+•	Purpose: Review existing policies, communication records, and IT infrastructure.
+•	Outcome: Ensure the new system aligns with school regulations and integrates with current tools.
+5. Focus Groups
+•	Purpose: Encourage discussion and idea-sharing.
+•	Who: Small groups of parents, students, and teachers.
+•	Outcome: Prioritize features based on collective feedback and consensus.
+6. Benchmarking / Competitor Analysis
+•	Purpose: Study similar platforms used by other schools.
+•	Outcome: Identify best practices and innovative features to adopt.
+🎯 How to Use These Methods
+1.	Start with interviews to capture strategic needs.
+2.	Deploy surveys to validate and quantify those needs.
+3.	Observe and analyze documents to uncover hidden inefficiencies.
+4.	Run focus groups to refine priorities.
+5.	Benchmark externally to ensure competitiveness.
+
+
+
+
+
+
+
+
+
+
+TASKS 2.3:CONDUCT RESEARCH.
+ Market Trends
+•	Strong Growth: Global eco-friendly cleaning products market expected to reach $33.6B by 2035.
+•	Drivers: Rising demand for sustainable, non-toxic products; stricter environmental regulations; corporate ESG commitments.
+•	Formats: Concentrated, refillable, and water-efficient packaging gaining popularity.
+•	Emerging Segments: Probiotic cleaners projected to hit $8.15B by 2030.
+ Competitor Landscape
+•	Market Leaders: Procter & Gamble, Unilever, Henkel, Reckitt Benckiser, Ecolab (collectively 26% market share).
+•	Strategies: Established players are adapting to sustainability demands with plant-based surfactants and eco-label certifications.
+•	Challengers: Smaller firms (e.g., Bluemoon, Goodmaid Chemicals) focus on niche eco-friendly segments.
+ Consumer Preferences
+•	High Interest: Google search trends show spikes in “eco-friendly cleaning supplies” and “reusable cleaning cloths” in early 2026.
+•	Concerns: Consumers remain skeptical about performance compared to traditional cleaners, but advanced formulations now achieve 95–99% effectiveness against pathogens.
+•	Desired Features:
+o	Non-toxic, plant-based ingredients
+o	Refillable packaging to reduce waste
+o	Affordable pricing despite higher production costs
+o	Transparent sustainability claims
+ Recommended Product Requirements for EcoClean
+•	Ingredients: Plant-derived enzymes, mineral-based disinfectants, biodegradable surfactants.
+•	Packaging: Concentrated formulas, refill stations, compostable or recyclable containers.
+•	Differentiators:
+o	Introduce probiotic cleaners for niche appeal.
+o	Offer digital engagement (QR codes linking to sustainability tips).
+o	Highlight certifications (eco-labels, cruelty-free, carbon-neutral).
+•	Customer Engagement: Educate consumers on product effectiveness and sustainability impact.
+TASKS 2.4:ANALYZE RESULT.
+ Data Analysis
+1. Current Energy Usage
+•	High consumption in peak hours due to production scheduling.
+•	Inefficient lighting and HVAC systems identified as major contributors.
+•	Manual monitoring of energy usage leads to delayed corrective actions.
+2. Efficiency Trends
+•	Renewable integration: Growing adoption of solar and wind in industrial sectors.
+•	Smart metering: Real-time monitoring is becoming standard for optimization.
+•	Automation: AI-driven predictive maintenance reduces downtime and energy waste.
+•	Benchmarking: Competitors are achieving 10–15% savings through IoT-enabled systems.
+Key Findings
+•	Data gaps: Lack of granular, real-time energy data prevents accurate forecasting.
+•	Over-reliance on manual processes: Leads to inefficiencies and missed opportunities.
+•	Outdated infrastructure: Legacy equipment consumes more energy than modern alternatives.
+•	Opportunity areas: Lighting, HVAC, and production scheduling optimization.
+ Recommendations
+1.	Implement Smart Energy Management System (EMS):
+o	Real-time monitoring via IoT sensors.
+o	Automated alerts for abnormal consumption.
+2.	Upgrade Infrastructure:
+o	Replace inefficient lighting with LED.
+o	Modernize HVAC systems with smart controls.
+3.	Integrate Renewables:
+o	Solar panels for daytime operations.
+o	Explore energy storage solutions for peak demand.
+4.	Data-Driven Decision Making:
+o	Develop dashboards for management.
+o	Use predictive analytics to forecast energy needs.
+5.	Employee Engagement:
+o	Training programs on energy-saving practices.
+o	Incentives for departments achieving efficiency targets.
+🗂 Organized Customer Needs
+•	Management: Cost reduction, compliance with sustainability goals, strategic reporting.
+•	Operations Team: Easy-to-use monitoring tools, automated alerts, reduced manual work.
+•	IT/Engineering: Scalable, secure system with integration capabilities.
+•	Employees: Clear guidelines, user-friendly interfaces, recognition for efficiency efforts.
+
+TASK 2.5 : REPORT FINDINGS.
+Report Findings
+1. Patient Data Security
+•	Current Gaps Identified:
+o	Inconsistent encryption standards across modules.
+o	Limited role-based access control, leading to potential unauthorized access.
+o	Manual backup processes increase risk of data loss.
+•	Stakeholder Concerns:
+o	Patients worry about privacy breaches and misuse of sensitive health data.
+o	Administrators emphasize compliance with HIPAA/GDPR regulations.
+•	Recommendations:
+o	Implement end-to-end encryption for all patient records.
+o	Strengthen authentication (multi-factor login).
+o	Automate secure backups and disaster recovery protocols.
+o	Introduce audit trails to monitor access and changes.
+2. User Interface Preferences
+•	Patient Feedback:
+o	Desire for a simple, intuitive dashboard showing appointments, prescriptions, and test results.
+o	Preference for mobile-friendly design with clear navigation.
+o	Request for personalized notifications (appointment reminders, lab results).
+•	Healthcare Staff Feedback:
+o	Need for streamlined workflows (fewer clicks to access patient records).
+o	Customizable views for doctors, nurses, and admin staff.
+o	Integration with existing scheduling and billing systems.
+•	Recommendations:
+o	Design a clean, minimal UI with role-specific dashboards.
+o	Ensure responsive design for mobile and tablet use.
+o	Add color-coded alerts for urgent tasks (e.g., critical lab results).
+o	Provide accessibility features (large fonts, screen reader compatibility).
+3. Overall Insights
+•	Security and usability are equally critical — patients demand trust, while staff need efficiency.
+•	A balance between robust compliance measures and user-friendly design will drive adoption.
+•	Prioritizing mobile access and personalized communication will enhance patient engagement.
+
+
+
+
+
+TASK 3.1: Target Audience of Bright Future Secondary School Website
+The website is designed to serve multiple groups of users, including:
+1.	Students 
+2.	Parents/Guardians 
+3.	School Staff (Teachers and Administrators) 
+4.	Prospective Students and Parents 
+5.	Wider Community / General Public 
+
+ Needs of Each Target Audience
+ 1. Students
+Students need the website to help them manage their academic life easily:
+•	Access to timetables and class schedules 
+•	Homework, assignments, and study materials 
+•	Exam results and academic progress 
+•	School announcements and updates 
+•	Information about events and extracurricular activities 
+
+ 2. Parents / Guardians
+Parents use the website to stay informed and support their children:
+•	Student performance reports and results 
+•	School calendar (terms, exams, holidays, meetings) 
+•	Fee structure and payment information 
+•	Communication channels with teachers and school 
+•	School rules, policies, and announcements 
+
+ 3. School Staff (Teachers & Administrators)
+Staff need tools to manage and share information efficiently:
+•	Upload and manage assignments and learning materials 
+•	Record and track student performance 
+•	Internal communication and announcements 
+•	Manage timetables and schedules 
+•	Access administrative resources and documents 
+
+ 4. Prospective Students and Parents
+These users are interested in joining the school:
+•	Admission requirements and application process 
+•	Information about academic programs and subjects 
+•	School facilities (classrooms, labs, sports, etc.) 
+•	Fee structure and scholarships (if available) 
+•	Contact details and school location 
+
+ 5. Wider Community / General Public
+The general public may want to know more about the school:
+•	News, events, and achievements 
+•	School background, mission, and vision 
+•	Community programs and involvement 
+•	Contact information 
+TASK 3.2: CREATION OF USER STORY
+
+User Stories
+1. Patient Perspective
+•	As a patient, I want to book a virtual consultation with a doctor through the app,
+•	So that I can receive medical advice without traveling to the healthcare facility.
+•	Acceptance Criteria:
+o	Patients can view available doctors and time slots.
+o	Patients can confirm appointments and receive reminders.
+o	Patients can securely share medical history before the consultation.
+o	Patients can join the video call with one click.
+2. Doctor Perspective
+•	As a doctor, I want to access patient records and conduct secure video consultations,
+•	So that I can provide accurate medical advice remotely.
+•	Acceptance Criteria:
+o	Doctors can view patient history and uploaded documents.
+o	Doctors can prescribe medications digitally.
+o	Doctors can update consultation notes in real time.
+o	Doctors can manage their availability schedule.
+3. Administrative Staff Perspective
+•	As an administrator, I want to manage appointments and monitor system usage,
+•	So that I can ensure smooth operations and optimize resource allocation.
+•	Acceptance Criteria:
+o	Admins can approve or reschedule appointments.
+o	Admins can generate reports on consultation frequency.
+o	Admins can manage doctor availability and patient accounts.
+o	Admins can monitor system performance and security logs.
+TASK 3.3:ELABORATE PROJECT TASK FLOW.
+Project Task Flow
+1. Homepage & Navigation
+•	Task: Design homepage with featured products, promotions, and easy navigation.
+•	Requirements:
+o	Product categories (clothing, accessories, footwear).
+o	Search bar with filters (size, price, brand).
+o	Responsive design for mobile and desktop.
+2. Product Catalog
+•	Task: Build product listing and detail pages.
+•	Requirements:
+o	High-quality images and descriptions.
+o	Size, color, and stock availability.
+o	Customer reviews and ratings.
+o	“Add to cart” and “Wishlist” options.
+3. Shopping Cart & Checkout
+•	Task: Create secure and user-friendly checkout flow.
+•	Requirements:
+o	Cart summary with editable items.
+o	Multiple payment options (credit card, mobile money, PayPal).
+o	Secure payment gateway integration.
+o	Guest checkout and account login.
+o	Order confirmation and receipt generation.
+4. Promotional Campaigns
+•	Task: Develop promotional section.
+•	Requirements:
+o	Banner management for discounts and seasonal sales.
+o	Coupon code functionality.
+o	Personalized offers based on user behavior.
+5. Blog & Fashion Tips
+•	Task: Add content hub for engagement.
+•	Requirements:
+o	Blog articles with images and videos.
+o	Categories (style guides, seasonal trends).
+o	Commenting and sharing options.
+6. Customer Support
+•	Task: Provide accessible support options.
+•	Requirements:
+o	Live chat integration.
+o	FAQ and help center.
+o	Contact form and support ticket system.
+7. User Accounts
+•	Task: Build account management features.
+•	Requirements:
+o	Profile creation and management.
+o	Order history and tracking.
+o	Saved payment methods.
+o	Wishlist and preferences.
+8. Admin Dashboard
+•	Task: Enable backend management.
+•	Requirements:
+o	Product and inventory management.
+o	Order processing and reporting.
+o	Campaign and blog content management.
+o	User management and analytics.
+9. Integrations
+•	Task: Connect with external systems.
+•	Requirements:
+o	Payment gateway APIs.
+o	Inventory/ERP system sync.
+o	Analytics tools (Google Analytics, heatmaps).
+o	Email marketing integration.
+10. Testing & Deployment
+•	Task: Ensure quality and security.
+•	Requirements:
+o	Usability testing across devices.
+o	Security testing for payments and data.
+o	Performance optimization.
+o	Deployment to hosting environment with monitoring.
+
