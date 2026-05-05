@@ -1,0 +1,278 @@
+TASK1.1:MANAGEMENT OF REPOSITORY
+
+
+ CREATE DIRECTORIES
+mkdir FolderName
+mkdir Folder1 Folder2 Folder3
+mkdir ParentFolder\ChildFolder
+
+ CHANGE DIRECTORY
+cd FolderName
+cd ..
+cd \
+cd C:\Users\YourName\Desktop
+
+ VIEW DIRECTORIES
+dir
+
+ RENAME DIRECTORY
+ren OldFolderName NewFolderName
+
+ DELETE DIRECTORIES
+rmdir FolderName
+rmdir /s FolderName
+rmdir /s /q FolderName
+
+PRACTICAL EXAMPLE
+mkdir ServerData
+cd ServerData
+mkdir Users Logs Backup
+ren Backup Archive
+rmdir /s Logs
+cd ..
+dir
+
+
+
+TASK1.2:THE BASIC COMMANDS TO CONFIGERE GIT
+
+
+
+
+ 1. CONFIGURE GIT (FIRST TIME SETUP)
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+ 2. VERIFY CONFIGURATION
+git config --list
+
+ 3. CHECK GIT INSTALLATION
+git --version
+
+ 4. NAVIGATE TO PROJECT FOLDER
+cd XYZ_Project
+
+ 5. INITIALIZE GIT REPOSITORY
+git init
+
+ 6. CREATE .gitignore FILE
+touch .gitignore
+ (Windows alternative)
+echo > .gitignore
+
+ 7. ADD SECURITY RULES TO .gitignore
+echo .env >> .gitignore
+echo .env.local >> .gitignore
+echo .env.production >> .gitignore
+echo node_modules/ >> .gitignore
+
+ 8. CHECK STATUS
+git status
+
+ 9. ADD ALL FILES TO STAGING AREA
+git add .
+
+ 10. FIRST COMMIT
+git commit -m "Initial project setup with git configuration and gitignore"
+
+ 11. CONNECT TO GITHUB REPOSITORY
+git remote add origin https://github.com/USERNAME/REPO.git
+
+ 12. SET MAIN BRANCH
+git branch -M main
+
+ 13. PUSH TO GITHUB
+git push -u origin main
+
+
+
+TASK1.3:USE OF GITHUB REPOSITORY
+
+
+
+
+
+ 1. SET UP PROJECT DIRECTORY
+mkdir PersonalFinanceApp
+cd PersonalFinanceApp
+
+ 2. CONFIGURE GIT (FIRST TIME ONLY)
+git config --global user.name "Alex"
+git config --global user.email "alex@example.com"
+
+ 3. VERIFY GIT INSTALLATION
+git --version
+
+ 4. CLONE GITHUB REPOSITORY (MAIN STEP)
+git clone https://github.com/USERNAME/PersonalFinanceApp.git
+cd PersonalFinanceApp
+
+ 5. CREATE INITIAL FILES
+echo "# Personal Finance App" > README.md
+touch .gitignore
+
+ 6. ADD .gitignore SECURITY RULES
+echo .env >> .gitignore
+echo .env.local >> .gitignore
+echo node_modules/ >> .gitignore
+
+ 7. CHECK STATUS
+git status
+
+ 8. ADD FILES TO STAGING AREA
+git add .
+
+ 9. FIRST COMMIT
+git commit -m "Initial setup with gitignore"
+
+ 10. PUSH TO GITHUB
+git push origin main
+
+
+
+
+TASK2.1DD FILE CHANGES TO GIT STAGING AREA
+
+
+
+
+ 1. CHECK PROJECT STATUS
+git status
+
+:: 2. CREATE OR MODIFY FILES
+touch feature.html
+ (edit main.html manually)
+
+ 3. REVIEW CHANGES IN A FILE
+git diff main.html
+
+ 4. DELETE UNNECESSARY FILE (if any)
+rm unwanted_file.txt
+:: OR
+git rm unwanted_file.txt
+
+ 5. ADD FILE CHANGES TO STAGING AREA
+
+ Add specific file
+git add main.html
+
+ Add multiple files
+git add main.html feature.html
+
+ Add all changes (recommended)
+git add .
+6. VERIFY STAGING AREA
+git status
+
+ 7. COMMIT CHANGES
+git commit -m "Added feature.html, updated main.html, removed unwanted file"
+
+ 8. PUSH TO GITHUB (if connected)
+git push origin main
+
+
+
+
+TASK2.2:COMMIT FILE CHANGES TO GIT STAGING AREA 
+
+
+
+
+:: 1. CHECK AVAILABLE BRANCHES
+git branch
+git branch -a
+
+:: 2. CREATE NEW FEATURE BRANCHES
+
+:: Alice
+git checkout -b feature-xyz
+
+:: Bob
+git checkout -b feature-abc
+
+:: 3. MAKE CHANGES TO FILES
+:: (edit files in project)
+
+:: 4. ADD FILE CHANGES TO LOCAL REPOSITORY
+git add .
+
+:: 5. COMMIT CHANGES
+git commit -m "Feature development work completed"
+
+:: 6. VIEW COMMIT HISTORY
+git log
+git log --oneline
+
+:: 7. SWITCH BETWEEN BRANCHES
+git checkout main
+git checkout feature-xyz
+git checkout feature-abc
+
+:: 8. UPDATE FEATURE BRANCH WITH MAIN (Alice)
+git checkout feature-xyz
+git pull origin main
+
+:: 9. MERGE FEATURE BRANCH INTO MAIN (Sarah supervises)
+git checkout main
+git merge feature-xyz
+
+git merge feature-abc
+
+:: 10. PUSH UPDATED MAIN TO GITHUB
+git push origin main
+
+
+TASK 3.1:FETCH FILES FROM GITHUB REPOSITORY.
+
+
+:: 1. CLONE REMOTE REPOSITORY (Alice)
+git clone https://github.com/USERNAME/GBY.git
+cd GBY
+
+:: 2. FETCH SPECIFIC BRANCH (Bob – subscribe to updates)
+git fetch origin feature-branch
+git checkout feature-branch
+
+:: 3. SYNC ALL BRANCHES (Claire – full synchronization)
+git fetch --all
+git pull --all
+
+:: 4. NORMAL UPDATE (David – standard pull like email sync)
+git checkout main
+git pull origin main
+
+:: 5. PULL SPECIFIC BRANCH (Emma – targeted download)
+git pull origin feature-branch
+
+:: 6. FORCE UPDATE / OVERWRITE LOCAL FILES (Frank)
+git fetch origin
+git reset --hard origin/main
+
+:: 7. UPDATE TO LATEST STABLE VERSION (Grace)
+git checkout main
+git pull origin main
+
+
+TASK 3.2:PUSH FILES TO REMOTE BRANCH.
+
+
+
+:: 1. CHECK CURRENT BRANCH
+git branch
+
+:: 2. CREATE AND SWITCH TO FEATURE BRANCH
+git checkout -b feature-new
+
+:: 3. MAKE CHANGES TO FILES
+:: (edit project files)
+
+:: 4. ADD FILES TO STAGING AREA
+git add .
+
+:: 5. COMMIT LOCAL CHANGES
+git commit -m "Implemented new feature"
+
+:: 6. PUSH LOCAL BRANCH TO REMOTE (ORIGIN MASTER OR FEATURE BRANCH)
+git push origin feature-new
+:: OR (as required in question)
+git push origin master
